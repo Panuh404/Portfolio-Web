@@ -1,0 +1,177 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Gaston Martinez Pannuto!**"
+        },
+
+        "es": {
+            "title": "¡Saludos!",
+            "title_menu": "Sobre mí",
+            "title_long_prefix": "Hola...",
+            "title_long": "Soy **Gaston Martinez Pannuto!**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "es": {}
+            },
+
+            "items": [
+                {
+                    "value": "Tucuman – Argentina",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "gastonpannuto@gmail.com",
+                    "links": [
+                        {"href": "mailto:gastonpannuto@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "@Panuh404",
+                    "links": [
+                        {"href": "https://github.com/Panuh404"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**A little bit** about me..."},
+                "es": {"title": "**Un poco** sobre mí..."}
+            },
+
+            "items": [
+                {
+                    
+                    "locales": {
+                        "en": {"text": "<p>I&rsquo;m a <b>C++</b> developer with a strong specialization in graphics programming and <b>Unreal Engine</b>, complemented by frontend experience with React. My hands-on experience in production environments spans <b>Java</b>, <b>C#</b>, and <b>Python</b>, giving me a well-rounded technical foundation.</p><p>Beyond technical expertise, I bring adaptability, problem-solving skills, and a proactive approach to tackling challenges. My ability to collaborate effectively across diverse teams and communicate complex ideas clearly ensures smooth project workflows and successful outcomes.</p><p>I look forward to contributing my skills and enthusiasm to create innovative solutions <b>together!</b></p>"},
+                        "es": {"text": "<p>Soy un desarrollador de <b>C++</b> con una sólida especialización en programación gráfica y <b>Unreal Engine</b>, complementado con experiencia en frontend con React. Mi experiencia práctica en entornos de producción abarca <b>Java</b>, <b>C#</b> y <b>Python</b>, lo que me brinda una base técnica bien equilibrada.</p><p>Más allá de la experiencia técnica, aporto adaptabilidad, habilidades para resolver problemas y un enfoque proactivo para abordar desafíos. Mi capacidad para colaborar eficazmente con equipos diversos y comunicar ideas complejas de manera clara garantiza flujos de trabajo fluidos y resultados exitosos.</p><p>¡Espero contribuir con mis habilidades y entusiasmo para crear soluciones innovadoras <b>juntos!</b></p>"}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Personal **interests**"},
+                "es": { "title": "Intereses **personales**" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-guitar",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Guitar",
+                            "info": "Exploring different genres and improving my skills."
+                        },
+                        "es": {
+                            "title": "Guitarra",
+                            "info": "Explorando diferentes géneros y mejorando mis habilidades."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-gamepad",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Gaming",
+                            "info": "Enjoying immersive worlds, mastering challenges, and connecting with gaming communities."
+                        },
+                        "es": {
+                            "title": "Juegos",
+                            "info": "Disfrutar de mundos inmersivos, superar retos y conectar con comunidades de jugadores."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Game Development",
+                            "info": "Creating games, exploring mechanics, and honing programming skills."
+                        },
+                        "es": {
+                            "title": "Desarrollo de Videojuegos",
+                            "info": "Crear juegos, explorar mecánicas y perfeccionar los conocimientos de programación."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-book",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Reading",
+                            "info": "Exploring genres, with a passion for chilling horror stories."
+                        },
+                        "es": {
+                            "title": "Lectura",
+                            "info": "Exploración de géneros, con pasión por las escalofriantes historias de terror."
+                        }
+                    }
+                }              
+            ]
+        }
+    ]
+}

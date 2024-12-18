@@ -1,0 +1,195 @@
+{
+    "locales": {
+        "en": {
+            "title": "Awards",
+            "title_menu": "Achievements",
+            "title_long_prefix": "Here are my",
+            "title_long": "Career **Achievements**"
+        },
+
+        "es": {
+            "title": "Logros",
+            "title_menu": "Logros",
+            "title_long_prefix": "Aquí están mis",
+            "title_long": "**Logros** Profesionales"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "certifications",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {
+                "en": { "title": "Certifications" },
+                "es": { "title": "Certificaciones" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/Tomlooman.png",
+                        "fa": "",
+                        "faColors": {"bg": "#c2c2c2", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "09/01/2024",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://courses.tomlooman.com/p/unrealperformance" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Unreal Engine** Optimization",
+                            "text": "Master the process of profiling and optimizing your Unreal Engine titles."
+                        },
+                        "es": {
+                            "text": "Domine el proceso de creación de perfiles y optimización de sus títulos Unreal Engine."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/codecademy.jpg",
+                        "fa": "",
+                        "faColors": {"bg": "#326CE5", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "09/01/2024",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://www.codecademy.com/career-journey/full-stack-engineer" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Full-Stack** Engineer",
+                            "text": "Build web applications from start to finish."
+                        },
+                        "es": {
+                            "text": "Cree aplicaciones web de principio a fin."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/UCSanDiego.png",
+                        "fa": "",
+                        "faColors": {"bg": "#326CE5", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "03/01/2023",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://courses.edx.org/certificates/6fe0a028ce174fb2ab5bc9fab95a3ad6" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Computer **Graphics**",
+                            "text": "Introduction to computer graphics."
+                        },
+                        "es": {
+                            "text": "Introducción a la computación gráfica"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/place-2.png",
+                        "fa": "",
+                        "faColors": {"bg": "#326CE5", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "09/04/2021",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://www.unsta.edu.ar/ingenieria/desarrollo-de-video-juegos/" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Game** development",
+                            "text": "Certification in game development in Unity"
+                        },
+                        "es": {
+                            "title": "Desarrollo de **Videojuegos**",
+                            "text": "Certificación en desarrollo de videojuegos en Unity"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/place-2.png",
+                        "fa": "",
+                        "faColors": {"bg": "#326CE5", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "04/19/2022",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "docs/pdf/UNSTA-2022-DIPLO.pdf" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Degree in **cybersecurity** strategy and **cybercrime** intelligence",
+                            "text": "A comprehensive program focused on developing expertise in cybersecurity strategies, cybercrime investigation, and threat intelligence."
+                        },
+                        "es": {
+                            "title": "Diplomatura en estrategia de **ciberseguridad** e inteligencia en **cibercrimen**",
+                            "text": "Un programa integral centrado en el desarrollo de conocimientos especializados en estrategias de ciberseguridad, investigación de ciberdelitos e inteligencia sobre amenazas."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/mongodb.png",
+                        "fa": "",
+                        "faColors": {"bg": "#47A248", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "06/15/2024",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://learn.mongodb.com/" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**MongoDB** University",
+                            "text": "MongoDB Certified Developer"
+                        },
+                        "es": {
+                            "text": "Desarrollador Certificado en MongoDB"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/Tomlooman.png",
+                        "fa": "",
+                        "faColors": {"bg": "#c2c2c2", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "08/01/2023",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://courses.tomlooman.com/p/unrealengine-cpp" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Unreal Engine** Master",
+                            "text": "Professional Game Development in C++ and Unreal Engine"
+                        },
+                        "es": {
+                            "text": "Desarrollo profesional de juegos en C++ y Unreal Engine"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

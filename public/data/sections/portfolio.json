@@ -1,0 +1,141 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        },
+
+        "es": {
+            "title": "Portafolio",
+            "title_long_prefix": "Explora",
+            "title_long": "Mi **Portafolio**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+
+            "categories": [
+                {
+                    "id": "apps",
+                    "locales": {
+                        "en": {"singular": "App", "plural": "Apps"},
+                        "es": {"singular": "App", "plural": "Apps"}
+                    }
+                },
+                {
+                    "id": "games",
+                    "locales": {
+                        "en": {"singular": "Games", "plural": "Games"},
+                        "es": {"singular": "Game", "plural": "Game"}
+                    }
+                },
+                {
+                    "id": "websites",
+                    "locales": {
+                        "en": {"singular": "Website", "plural": "Web"},
+                        "es": {"singular": "Sitio web", "plural": "Web"}
+                    }
+                }
+            ],
+
+            "items": [
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/QuietIcon.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://github.com/Panuh404/Quiet-Engine"}
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Quiet Engine",
+                            "text": "Quiet is an open source <b>Game Engine</b> in Development made with learning purposes.</p><p>A Game Engine is a set of software tools that optimizes the development of video games.",
+                            "tags": ["C++", "C#/WPF", "DirectX12"]
+                        },
+                        "es": {
+                            "title": "Quiet Engine",
+                            "text": "Quiet es un <b>motor de juegos</b> de c&oacute;digo abierto en desarrollo hecho con fines did&aacute;cticos.</p><p>Un motor de juegos es un conjunto de herramientas de software que optimiza el desarrollo de videojuegos.",
+                            "tags": ["C++", "C#/WPF", "DirectX12"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://github.com/Panuh404/"}
+                    ],
+
+                    "locales": {
+                        "en": {
+                            "title": "Portfolio Web",
+                            "text": "A sleek and modern <b>portfolio website</b> developed with <b>React.js</b>, featuring a responsive design and seamless animations to showcase projects and skills effectively.",
+                            "tags": ["React.js", "Portfolio", "Web Design"]
+                        },
+                        "es": {
+                            "title": "Portafolio",
+                            "text": "Un <b>sitio web de portafolio</b> elegante y moderno desarrollado con <b>React.js</b>, con un dise&ntilde;o responsivo y animaciones fluidas para mostrar proyectos y habilidades de manera efectiva.",
+                            "tags": ["React.js", "Portafolio", "Diseño web"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "games",
+                    "icon": {
+                        "img": "images/svg/InfLight.svg",
+                        "fa": "",
+                        "faColors": {"bg": "#007396", "fill": "#EEE"}
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Infinity Light",
+                            "text": "An immersive <b>first-person shooter</b> developed in <b>Unreal Engine</b>, featuring dynamic environments, advanced AI enemies, and customizable weapons for intense gameplay.</p><p>Actually in heavy development.</p><p>Demo incomming!!!",
+                            "tags": ["Unreal Engine", "C++", "FPS"]
+                        },
+                        "es": {
+                            "title": "Infinity Light",
+                            "text": "Un inmersivo <b>shooter en primera persona</b> desarrollado en <b>Unreal Engine</b>, con entornos din&aacute;micos, enemigos de IA avanzada y armas personalizables para un juego intenso.</p><p>Actualmente en desarrollo.</p><p>&iexcl;Demo inminente!",
+                            "tags": ["Unreal Engine", "C++", "FPS"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "games",
+                    "icon": {
+                        "img": "images/pictures/GHGame.png",
+                        "fa": "",
+                        "faColors": {"bg": "#007396", "fill": "#EEE"}
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Eclipse",
+                            "text": "A gripping <b>dark fantasy RPG</b> inspired by the Souls-like genre, developed with <b>Unreal Engine</b>. Explore a haunting world filled with challenging combat, deep lore, and atmospheric horror.</p><p>It is at the concept stage",
+                            "tags": ["Unreal Engine", "C++", "RPG"]
+                        },
+                        "es": {
+                            "title": "Eclipse",
+                            "text": "Un apasionante <b>RPG de fantas&iacute;a oscura</b> inspirado en el g&eacute;nero Souls, desarrollado con <b>Unreal Engine</b>. Explora un mundo inquietante repleto de combates desafiantes, historia profunda y horror atmosf&eacute;rico.</p><p>Se encuentra en etapa de concepto",
+                            "tags": ["Unreal Engine", "C++", "RPG"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
