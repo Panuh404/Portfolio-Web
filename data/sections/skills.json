@@ -157,9 +157,9 @@
             "items":[
                 {
                     "icon": {
-                        "img": "images/pictures/cpp.png",
+                        "img": "images/svg/cpp.svg",
                         "fa": "",
-                        "faColors": {"bg": "#ffffff00", "fill": "#000"}
+                        "faColors": {"bg": "#eee", "fill": "#000"}
                     },
                     "locales": {
                         "en": {
@@ -174,9 +174,9 @@
                 },
                 {
                     "icon": {
-                        "img": "images/pictures/csh.png",
+                        "img": "images/svg/csh.svg",
                         "fa": "",
-                        "faColors": {"bg": "#ffffff00", "fill": "#000"}
+                        "faColors": {"bg": "#eee", "fill": "#000"}
                     },
                     "locales": {
                         "en": {
@@ -300,6 +300,40 @@
                         "es":{
                             "title": "Unity",
                             "info": "Motor del juego"
+                        }
+                    }                    
+                },
+                {
+                    "icon": {
+                        "img": "images/svg/blender.svg",
+                        "fa": "",
+                        "faColors": {"bg": "#eee", "fill": "#EEE"}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Blender",
+                            "info": "3D creation suite"
+                        },
+                        "es":{
+                            "title": "Blender",
+                            "info": "Suite de creación 3D"
+                        }
+                    }                    
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-gitlab",
+                        "faColors": {"bg": "#E34124", "fill": "#EEE"}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "GitLab",
+                            "info": "DevOps/DevSecOps collaborative platform."
+                        },
+                        "es":{
+                            "title": "GitLab",
+                            "info": "Plataforma de colaboración DevOps/DevSecOps."
                         }
                     }                    
                 }
@@ -541,7 +575,7 @@
                             "tags": ["Native"]
                         },
                         "es": {
-                            "title": "Francés",
+                            "title": "Español",
                             "info": "Hablante nativo con excelentes habilidades de comunicación y escritura.",
                             "tags": ["Nativo"]
                         }

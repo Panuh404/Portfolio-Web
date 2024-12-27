@@ -77,7 +77,7 @@
                     },
 
                     "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://github.com/Panuh404/"}
+                        {"faIcon": "fa-solid fa-link", "href": "https://github.com/Panuh404/Portfolio-Web"}
                     ],
 
                     "locales": {
@@ -104,7 +104,7 @@
                     "locales": {
                         "en": {
                             "title": "Infinity Light",
-                            "text": "An immersive <b>first-person shooter</b> developed in <b>Unreal Engine</b>, featuring dynamic environments, advanced AI enemies, and customizable weapons for intense gameplay.</p><p>Actually in heavy development.</p><p>Demo incomming!!!",
+                            "text": "An immersive <b>first-person shooter</b> developed in <b>Unreal Engine</b>, featuring dynamic environments, advanced AI enemies, and customizable weapons for intense gameplay.</p><p>Actually in heavy development.</p><p>Demo incoming!!!",
                             "tags": ["Unreal Engine", "C++", "FPS"]
                         },
                         "es": {
